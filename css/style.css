@@ -1,73 +1,94 @@
-:root{
+:root {
     --primary-color: #75BF7A
 }
 
-html, body{
+html,
+body {
     padding: 0;
     margin: 0;
     width: 100%;
 }
 
-/* btns */
+/* nav */
 
-nav .btn{
-    background-color: var(--primary-color);
-    border: none;
-    font-size: 22px;
-    font-weight: 600;
+nav {
+    width: 1440px;
+    height: 174px;
     text-align: center;
-    height: 50px;
-    width: 182px;
+
+    img {
+        width: 180px;
+        height: 51px;
+    }
+
+    a {
+        font-size: 17px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .btn {
+        background-color: var(--primary-color);
+        border: none;
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+        height: 50px;
+        width: 182px;
+    }
 }
 
-.download a{
-    background-color: black;
-    text-align: center;
-    border: none;
-    font-weight: 800;
-    font-size: 25px;
-    width: 260px;
-    height: 67px;
-    padding: 12px;
+/* main */
+
+.download {
+    a {
+        background-color: black;
+        text-align: center;
+        border: none;
+        font-weight: 800;
+        font-size: 25px;
+        width: 260px;
+        height: 67px;
+        padding: 12px;
+    }
 }
 
-.phone-number .btn{
-    background-color: black;
-    color: #FFF;
-    font-weight: 800;
-    font-size: 22px;
-    text-align: center;
-    width: 260px;
-    height: 67px;
-}
-
-.phone-number .btn:hover{
-    background-color: #0d6efd;
-    color: #FFF;
-}
-
-/* sections */
-
-.phone-number{
+.phone-number {
     background-color: var(--primary-color);
     padding: 55px 70px;
     margin: 86px 80px 128px;
     border-radius: 8px;
-}
 
-.phone-number input{
-    width: 499px;
-    height: 67px;
-    font-weight: 600;
-    font-size: 20px;
-    padding: 30px 208px 30px 20px;
-    border: none;
-    border-radius: 8px;
-    margin-right: 11px;
-}
+    .btn {
+        background-color: black;
+        color: #FFF;
+        font-weight: 800;
+        font-size: 22px;
+        text-align: center;
+        width: 260px;
+        height: 67px;
 
-.phone-number p{
-    color: #FFF;
-    font-weight: 600;
-    font-size: 25px;
+        &:hover {
+            background-color: #0d6efd;
+            color: #FFF;
+        }
+    }
+
+    input {
+        width: 499px;
+        height: 67px;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 30px 208px 30px 20px;
+        border: none;
+        border-radius: 8px;
+        margin-right: 11px;
+    }
+
+    p {
+        color: #FFF;
+        font-weight: 600;
+        font-size: 25px;
+    }
+
 }
