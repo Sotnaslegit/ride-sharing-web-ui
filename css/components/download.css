@@ -1,0 +1,31 @@
+
+
+.download {
+
+    h1{
+        font-size: 61px;
+        font-weight: 800;
+    }
+
+    p{
+        font-size: 24px;
+        color: #9E9DA2;
+        font-weight: 600;
+        margin: 27px 0 62px;
+    }
+
+    a {
+        background-color: black;
+        text-align: center;
+        border: none;
+        font-weight: 800;
+        font-size: 25px;
+        width: 260px;
+        height: 67px;
+        padding: 12px;
+    }
+
+   .links{
+    justify-content: space-between;
+   }
+}
