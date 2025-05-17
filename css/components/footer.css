@@ -1,0 +1,8 @@
+@import url(footer.css);
+
+footer{
+
+    .container{
+        border: red 100px;
+    }
+}

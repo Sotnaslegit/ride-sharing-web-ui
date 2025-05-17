@@ -1,4 +1,4 @@
-
+@import url(root.css);
 
 .download {
 
@@ -9,7 +9,7 @@
 
     p{
         font-size: 24px;
-        color: #9E9DA2;
+        color: var(--text-color);
         font-weight: 600;
         margin: 27px 0 62px;
     }
