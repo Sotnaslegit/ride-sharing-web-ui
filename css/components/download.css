@@ -25,6 +25,12 @@
         padding: 12px;
     }
 
+    .btn{
+        img{
+            margin-right: 10px;
+        }
+    }
+
    .links{
     justify-content: space-between;
    }
